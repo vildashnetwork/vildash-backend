@@ -38,6 +38,7 @@ app.use(cors({
         "https://www.vildashnetwork.com",
         "https://dashboard.vildashnetwork.com",
         "https://vildash-elevate.vercel.app",
+        "https://vildash-hub-aqyh.vercel.app"
     ],
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
