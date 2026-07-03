@@ -29,6 +29,14 @@ const projectschema = new mongoose.Schema(
         urllink: {
             type: String,
             required: true
+        },
+        technologies: {
+            type: [String],
+            required: true
+        },
+        visibility: {
+            type: Boolean,
+            default: false
         }
     },
     { timestamp: true }
